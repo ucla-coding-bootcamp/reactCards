@@ -14,7 +14,7 @@ return (
                 
             <li className="nav-item">
                 <br></br>
-                <div className="alert alert-success" role="alert">
+                <div className="alert alert-secondary" role="alert">
                       Current Score:  {props.currentScore}   
                 </div>
             </li>
@@ -25,7 +25,7 @@ return (
 
             <li className="nav-item">
                 <br></br>
-                <div className="alert alert-secondary" role="alert">
+                <div className="alert alert-success" role="alert">
                       Best Score:  {props.maxScore}    
                 </div>
             </li>

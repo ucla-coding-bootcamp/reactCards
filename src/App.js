@@ -87,6 +87,19 @@ class App extends Component {
       <div>
         <Navbar currentScore={this.state.currentScore} maxScore={this.state.maxScore}/>    
           <br></br>
+
+            <div className="row">
+                <div className="col">
+                </div>
+                <div className="col-11">
+                <div class="alert alert-secondary" role="alert" id="message">
+                       Test your memory: click on an image to earn points but don't click on any image more than once !
+                </div>
+                </div>
+                <div className="col">
+                </div>
+            </div>
+
             <div className="row">
                 <div className="col">
                 </div>
@@ -94,7 +107,8 @@ class App extends Component {
                 <div className="col-11">
                 <div className="jumbotron jumbotron-fluid">
                   <div className="imageContainer">
-
+                        
+                       
                         {this.state.linksArray.shuffledDeck}
                               
                   </div>
