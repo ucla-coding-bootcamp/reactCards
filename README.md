@@ -4,6 +4,6 @@ This app mimics:
 https://clicky-game.netlify.com/
 
 
-#1. Screen Shot
+#Screen Shot
 ![Results Image](https://github.com/ucla-coding-bootcamp/reactCards/blob/master/image1.png)
 
